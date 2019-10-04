@@ -13,7 +13,7 @@ import io.cucumber.java.en.When;
 
 public class HelloStepDefs extends BaseStepDefs {
 
-    private static final String SERVER_URL = "http://localhost:8080";
+    private static final String SERVER_URL = "https://raspberrypi.local:8443";
     private static final String HELLO_ENDPOINT = "/api/hello";
 
     @Given("^Server is alive$")
